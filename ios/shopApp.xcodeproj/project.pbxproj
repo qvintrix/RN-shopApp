@@ -55,6 +55,8 @@
 		2D02E4901E0B4A5D006451C7 /* shopApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shopApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AAFD84E840A27B724A282D /* Pods-shopApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-shopApp-tvOSTests/Pods-shopApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ADE384C8E133F5568189B09 /* libPods-shopApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBE9AC724BE462400A94927 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		4BBE9AC824BE462400A94927 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		5840A03028A0811791C6760C /* Pods-shopApp-shopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopApp-shopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-shopApp-shopAppTests/Pods-shopApp-shopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = shopApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9874DCD8001024E2DB0A38D2 /* Pods-shopApp-shopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopApp-shopAppTests.release.xcconfig"; path = "Target Support Files/Pods-shopApp-shopAppTests/Pods-shopApp-shopAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* shopApp */ = {
 			isa = PBXGroup;
 			children = (
+				4B94DA0E24BE43200097500F /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -147,6 +150,15 @@
 				E39C97E9D2696F62111D0989 /* libPods-shopApp-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B94DA0E24BE43200097500F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4BBE9AC724BE462400A94927 /* MaterialCommunityIcons.ttf */,
+				4BBE9AC824BE462400A94927 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -194,7 +206,6 @@
 				36AAFD84E840A27B724A282D /* Pods-shopApp-tvOSTests.debug.xcconfig */,
 				F1423A20C93FEEA1E9CD9AC8 /* Pods-shopApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
